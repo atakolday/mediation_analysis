@@ -23,7 +23,7 @@ This project includes two Python scripts, `main.py` and `MediationAnalyzer.py`, 
 
    ```bash
    git clone https://github.com/atakolday/mediation_analysis.git
-   cd mediation_analysis
+   cd mediation_analysis/Python_workflow
    ```
 
 2. Create a virtual environment (optional but recommended):
