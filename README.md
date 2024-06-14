@@ -1,5 +1,5 @@
 
-# Mediation Analysis
+# Mediation Analysis (Python Workflow)
 
 This project includes two Python scripts, `main.py` and `MediationAnalyzer.py`, designed to perform mediation analysis on given datasets. The project uses various libraries such as `numpy`, `pandas`, `scipy`, `statsmodels`, and `semopy`.
 
