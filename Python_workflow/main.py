@@ -248,7 +248,7 @@ if __name__ == "__main__":
                 est_lst.append(estimate)
 
             # Setting the strings for p-value information to be written on the text box
-            bootstrap_pvals_df = pd.DataFrame(m.bootstrap_pval)
+            bootstrap_pvals_df = pd.DataFrame(m.bootstrap_pval) * len(variableList) # adjusting for multiple comparisons
             p_sig_prop = (bootstrap_pvals_df < 0.05).mean()
             box_title2 = 'Percentage of Significant\nBootstrapped Estimates**: \n  ** (p < 0.05)'
             p1 = f'- A Path --> {round(p_sig_prop[0] * 100, 2)}%'
