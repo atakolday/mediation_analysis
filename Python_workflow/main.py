@@ -228,7 +228,7 @@ if __name__ == "__main__":
         X, Y = "PrimaryDx_ASD", "PercentAccuracy_GTI"
 
         variable = input(
-            ">>> Which mediator variable would you like to test? (separate with \", \" if multiple variables) ")
+            ">>> Which mediator variable would you like to test? (separate with \", \" if multiple variables, or type 'all' to test all variables.) ")
         if variable == 'all':  # create bootstrapped histograms for all variables
             variableList = [var for var in variables if var not in [X, Y]]
         else:  # create bootstrapped histograms for the desired variable(s)
